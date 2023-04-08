@@ -1,0 +1,80 @@
+.Overflow{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 3;
+
+/* transition: 0.5s; */
+}
+
+
+.SideBlock{
+    width: 345px;
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    z-index: 4;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    transition: 0.5s;
+}
+
+#topCart{
+    margin: 30px;
+    
+}
+
+.CartItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.CartItem{
+    display: flex;
+    margin: 25px;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    position: relative;
+}
+
+.CartItem .ItemText{
+    width: 250px;
+    margin: 24px;
+}
+
+.CartItem .ItemText #FlowerName{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.CartItem .ItemText #FlowerPrice{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.CartItem #CartItemImg{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.AddCart{
+    display: flex;
+    justify-content: center;
+}
+
+.AddCartImg{
+    margin: 0 auto;
+    display: block;
+}

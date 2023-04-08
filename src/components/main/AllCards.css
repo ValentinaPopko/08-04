@@ -1,0 +1,21 @@
+.MainContent{
+    max-width: 1080px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 0 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.MainContent h1{
+    font-weight: bold;
+}
+
+.Cards{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

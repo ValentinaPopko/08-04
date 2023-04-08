@@ -1,0 +1,49 @@
+#cardcss{
+    /* display: flex; */
+    border-radius: 40px;
+    margin-bottom: 10px;
+
+}
+
+
+#cardcss:hover{
+    box-shadow: 0px 0 20px 2px rgb(253, 186, 236); 
+}
+
+
+.price{
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.priceName{
+    font-weight: lighter;
+    font-weight: 500;
+    /* font-size: 11px; */
+    /* line-height: 13px; */
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+.Flower{
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 17px; */
+}
+
+#imgfl{
+    width: 116px;
+    margin: auto;
+}
+
+#AddToFavButton{
+    position: absolute;
+    z-index: 2;
+    margin: 20px;
+    width: 32px;
+    height: 32px;
+}

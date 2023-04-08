@@ -1,0 +1,69 @@
+
+#cartcss{
+    left: 30px;
+    border: 1px solid #F3F3F3;
+    
+    border-radius: 20px;
+    margin-bottom: 10px;
+    flex-direction: row;
+
+    position: relative;
+    width: 85%;
+    height: 150px;
+}
+
+
+#cartcss:hover{
+    box-shadow: 0px 0 20px 2px rgb(253, 186, 236); 
+}
+
+
+.priceCart{
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.priceNameCart{
+    font-weight: lighter;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+.FlowerCart{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#imgfl{
+    width: 116px;
+    margin: auto;
+}
+
+
+
+.CountButtons{
+    position: absolute;
+    bottom: 0;
+    /* right: 20px; */
+    width: 40%;
+} 
+
+ .CountButtons input{
+    width: 60px;
+    text-align: center;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+} 
+
+ .RemoveButton{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0px;
+}

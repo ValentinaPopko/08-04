@@ -1,0 +1,36 @@
+.mainHeader {
+    max-width: 1080px;
+    /* margin: 85px auto 0 auto; */
+    margin: 0 auto 0 auto;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 0 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+
+}
+
+.leftHeader {
+    display: flex;
+    
+}
+
+.rightHeader img{
+    margin-left: 20px;
+}
+
+.leftHeader .leftHeaderText {
+    display: flex;
+    flex-direction: column;
+}
+.leftHeader .leftHeaderText h5 {
+    margin-left: 3px;
+    font-weight: bold;
+}
+.leftHeader .leftHeaderText p {
+    margin: -10px;
+    margin-left: 3px;
+    font-weight: lighter;
+}
+
